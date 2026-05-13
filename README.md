@@ -15,13 +15,15 @@ In a dataset of 1,200 teens (31 labeled as depressed):
 
 ## Project Structure
 
+```
 teen-mental-health-analysis/
 ├── teen-mental-health-analysis.ipynb   # main analysis notebook
 ├── data/
 │   ├── Teen_Mental_Health_Dataset.csv  # source dataset
-│   ├── LICENSE                          # Apache 2.0 license for the dataset
-│   └── NOTICE                           # attribution to original source
+│   ├── LICENSE                         # Apache 2.0 license for the dataset
+│   └── NOTICE                          # attribution to original source
 └── README.md
+```
 
 ## Reproducing the Analysis
 
@@ -33,14 +35,23 @@ teen-mental-health-analysis/
 ### Steps
 
 1. Clone the repository:
+
+```
 git clone https://github.com/TanmoyDas6697/teen-mental-health-analysis.git
 cd teen-mental-health-analysis
+```
 
 2. Install dependencies:
+
+```
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
 
 3. Launch Jupyter and open the notebook:
+
+```
 jupyter notebook teen-mental-health-analysis.ipynb
+```
 
 4. Run the cells from top to bottom.
 
@@ -62,4 +73,3 @@ Licensed under the Apache License, Version 2.0. The full license text and attrib
 ## License
 
 The dataset is licensed under Apache 2.0 (see `data/LICENSE`). The notebook and analysis code are released without a specific license; default copyright applies.
-
